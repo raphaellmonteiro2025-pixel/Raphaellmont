@@ -1,4 +1,5 @@
 #MEU PRIMEIRO PROJETO
+#COLOCANDO EM PRÁTICA MINHAS AULAS DE PYTHON
 print('SEJA BEM VINDO(A) AO MEU PRIMEIRO PROJETO!!')
 
 nome_do_usuario = input('Me diga o seu nome: ')

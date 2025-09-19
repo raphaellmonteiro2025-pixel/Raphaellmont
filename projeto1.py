@@ -24,10 +24,10 @@ idade = input('Qual sua idade? ')
 altura = float(input('Qual sua altura? '))
 peso = float(input('Qual seu peso? '))
 
-result_pe = peso        #peso em kg
-vari_peso = 35   
-imc = peso / (altura * altura)
-peso_ideal = (imc * altura * altura)       #ml de água por kg
+result_pe = peso   #peso em kg
+vari_peso = 35   #variavel base de taxa regular
+imc = peso / (altura * altura) #peso elevado a altura ao quadrado
+peso_ideal = (imc * altura * altura)  #ml de água por kg
 multi_p = result_pe * vari_peso #multiplicador das variáveis
 
 
@@ -52,10 +52,9 @@ else:
   
 multi_1 = peso * altura
 
-print(f'Seu peso '
-      f'ideal é de {int(peso_ideal)} kg')
-print(f'Seu IMC é de {imc:1f}!')
-print(f'Você deve beber cerca de '
-      f' {multi_p / 1000:.2f}L por dia para se manter saudável!')
+print(f'Seu peso 'f'ideal é de {int(peso_ideal)} '
+      f'kg, seu IMC Seu IMC é de {imc:1f}, e você '
+      f' deve beber cerca de {multi_p / 1000:.2f}L '
+      f' por dia para se manter saudável! ')
 
 print('VOLTE SEMPRE, OBRIGADO(A)!!!')
